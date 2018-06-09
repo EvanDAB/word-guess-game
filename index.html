@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Word Guess Game</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bevan|Jua|Poor+Story" rel="stylesheet">
+    <script src="assets/javascript/game.js"></script>
+</head>
+<body>
+    <div class="invisibleBox">
+        <div class="col-12">
+            <h1>Hangman</h1>
+            <h2>90's style</h2>
+        </div>
+        <div class="hide">
+            <h4 id="rightGuess">The Right Guess<a id=""></a></h4>
+        </div>
+        <div class="row">
+            <div class="container col-6">
+                <img src="assets/images/black-sitcom-img.jpg">
+            </div>
+            <div class="container col-6">
+                <div class="row">
+                    <p>Press any key to start guessing</p>
+                </div>
+
+                <p>Wins </p>
+                <a id="wins"></a>
+                <p>Current Word</p>
+                <a id="rGuess"></a>
+            <div class="row">
+                <p>Number of Guesses Remaining <a id="guessR"></a></p>       
+            </div>
+                <p>Letters Already Guessed</p>
+                <div class="col-12">
+                    <a id="lettersGuessed"></a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
